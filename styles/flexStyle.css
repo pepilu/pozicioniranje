@@ -1,0 +1,31 @@
+.roditelj {
+  background-color: thistle;
+  color: whitesmoke;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+  height: 300px;
+}
+.dete {
+  background-color: rgb(110, 110, 253);
+  width: 250px;
+  height: 100px;
+}
+.dete1 {
+  order: 2;
+  flex-shrink: 2;
+  align-self: flex-start;
+}
+.dete2 {
+  order: 3;
+  flex-shrink: 1;
+}
+.dete3 {
+  order: 1;
+  flex-shrink: 1;
+}

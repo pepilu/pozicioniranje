@@ -1,0 +1,36 @@
+/* staticko pozicioniranje */
+/* apsolutno pozicioniranje */
+/* fixed pozicioniranje */
+/* relativno pozicioniranje */
+/* sticky pozicioniranje */
+.div1 p {
+  width: 350px;
+  height: 150px;
+  border: 3px dotted darkblue;
+  padding: 12px;
+}
+.klasa1 {
+  background-color: rgba(84, 84, 230, 0.808);
+}
+.klasa2 {
+  background-color: rgb(81, 151, 216);
+}
+.div2 {
+  position: relative;
+  top: 30px;
+  left: 50px;
+  width: 400px;
+}
+.dugme {
+  position: absolute;
+  top: 150px;
+  bottom: 0px;
+  right: 40px;
+  z-index: 2;
+}
+.dugme2 {
+  position: absolute;
+  top: 150px;
+  right: 90px;
+  z-index: 1;
+}
